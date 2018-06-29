@@ -186,7 +186,6 @@ $epoch_seconds = timelocal($sec, $min, $hour, $dd, $mm, $yy);
 
 $epoch_seconds += 10800;
 
-# 1994-11-05T08:15:30-05:00
 return strftime('%Y-%m-%dT%H:%M:%S-05:00', localtime($epoch_seconds));
 
 }
