@@ -50,6 +50,6 @@ Values that contain commas are assumed to be protected by double quotes.  Values
 
 Some CSV formats can contain newlines. This parsing assumes one line per CSV entry.
 
-Its possible that a value containing \",  could not be correctly rejoined into a single value entry.
+Its possible that a value containing backslash-",  could not be correctly rejoined into a single value entry.
 
 
