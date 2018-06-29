@@ -16,6 +16,7 @@ This minimizes the requirements for custom library installation on the target ma
 I test ran this on MacOS (uname output):
    17.6.0 Darwin Kernel Version 17.6.0: Tue May  8 15:22:16 PDT 2018; root:xnu-4570.61.1~1/RELEASE_X86_64 x86_64
 And on a fedora 28 system (I did not have quick acess to an ubuntu system).
+   4.17.2-200.fc28.x86_64 #1 SMP Mon Jun 18 20:09:31 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
 
 The only change that may be required is to modify the first line of csv_daveu.pl to specify the location of perl on the system where this script will run.
 As checked in, the path is set to perl on my Mac:
